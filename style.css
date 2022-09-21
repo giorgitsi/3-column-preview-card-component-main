@@ -1,0 +1,128 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+/* 
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%) */
+
+body{
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+
+.container{
+    display: flex;
+    
+    padding: 20px;
+    max-width: 850px;
+}
+
+/* Card styles */
+
+.card{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* flex:1; */
+    color: white;
+
+    
+}
+
+.card-1{   
+    background-color: hsl(31, 77%, 52%); 
+    border-top-left-radius: 5px;    
+    border-bottom-left-radius: 5px;  
+
+}
+
+.card-2{
+    background-color: hsl(184, 100%, 22%);
+    
+}
+
+.card-3{
+    background-color:hsl(179, 100%, 13%) ;
+    border-top-right-radius: 5px;  
+    border-bottom-right-radius: 5px;  
+    
+}
+
+.img{
+    margin-bottom:20px ;
+}
+
+.h2{
+    margin-bottom: 20px;
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase ;
+    
+}
+
+.p{
+    opacity: 0.6;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 80px;
+}
+
+/* btn styles */
+
+.btn{
+    border: 1px solid transparent ;
+    padding:15px 30px ;
+    border-radius: 100px;
+    
+    cursor: pointer;
+    margin-top:auto;
+   
+
+    
+}
+
+.btn-1{
+    color: hsl(31, 77%, 52%);
+}
+
+.btn-2{
+    color: hsl(184, 100%, 22%);
+}
+
+.btn-3{
+    color: hsl(179, 100%, 13%);
+}
+
+.btn:hover{
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-1:hover{
+    background-color:hsl(31, 77%, 52%) ;
+    
+}
+
+.btn-2:hover{
+    background-color:hsl(184, 100%, 22%) ;
+
+}
+
+.btn-3:hover{
+    background-color:hsl(179, 100%, 13%) ;
+    
+}
+
+
+@media screen and (max-width: 600px){
+    .container{
+        /* display: block; */
+    }
+}
